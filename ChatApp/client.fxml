@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane style="-fx-background-color: #EEE489;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+       <TextFlow id="textFlow" prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: #F2F2F2;" BorderPane.alignment="CENTER">
+           <padding>
+               <Insets bottom="10.0" left="10.0" right="10.0" top="5.0" />
+           </padding>
+           <BorderPane.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+           </BorderPane.margin>
+       </TextFlow>
+   </center>
+   <bottom>
+        <HBox nodeOrientation="RIGHT_TO_LEFT" prefHeight="25.0" prefWidth="200.0" spacing="10.0" BorderPane.alignment="CENTER">
+            <BorderPane.margin>
+                <Insets bottom="5.0" left="5.0" right="5.0" />
+            </BorderPane.margin>
+            <Button id="sendMessage" contentDisplay="CENTER" mnemonicParsing="false" text="SEND">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Button>
+            <TextField id="message" alignment="CENTER_RIGHT" prefWidth="330.0">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </TextField>
+        </HBox>
+   </bottom>
+</BorderPane>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="CENTER" vgap="20.0" GridPane.halignment="CENTER" GridPane.valignment="CENTER" xmlns="http://javafx.com/javafx/8.0.241">
+      <Label contentDisplay="BOTTOM" text="User Name">
+         <graphic>
+            <TextField id="userNameField" alignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+         </graphic>
+         <font>
+            <Font name="Candara Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="BOTTOM" layoutX="120.0" layoutY="113.0" text="IP Address" textAlignment="RIGHT" GridPane.rowIndex="1">
+         <graphic>
+            <TextField id="ipAddressField" alignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+         </graphic>
+         <font>
+            <Font name="Candara Italic" size="20.0" />
+         </font>
+      </Label>
+      <Button id="beHostButton" mnemonicParsing="false" text="Be host" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+         <font>
+            <Font name="Candara Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button id="joinToChatButton" mnemonicParsing="false" text="Join to chat" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+         <font>
+            <Font name="Candara Bold" size="20.0" />
+         </font>
+      </Button>
+   <columnConstraints>
+      <ColumnConstraints percentWidth="70.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints percentHeight="20.0" />
+      <RowConstraints percentHeight="20.0" />
+      <RowConstraints percentHeight="20.0" />
+      <RowConstraints percentHeight="20.0" />
+   </rowConstraints>
+</GridPane>
